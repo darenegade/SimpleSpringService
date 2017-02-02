@@ -1,4 +1,4 @@
-package com.zoo;
+package com.tasks;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

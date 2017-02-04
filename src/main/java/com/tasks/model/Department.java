@@ -15,7 +15,7 @@ import java.util.Set;
  * System: 2,3 GHz Intel Core i7, 16 GB 1600 MHz DDR3
  */
 @Entity
-public class Department {
+public class Department extends BaseEntity{
   String name;
 
   @OneToOne

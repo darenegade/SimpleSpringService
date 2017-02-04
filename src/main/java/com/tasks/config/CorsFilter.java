@@ -1,4 +1,4 @@
-package com.tasks;
+package com.tasks.config;
 
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;

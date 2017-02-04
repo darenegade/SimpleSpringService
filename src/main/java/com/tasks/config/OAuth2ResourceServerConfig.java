@@ -1,4 +1,4 @@
-package com.tasks;
+package com.tasks.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

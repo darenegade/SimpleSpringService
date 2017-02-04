@@ -1,4 +1,4 @@
-package com.tasks;
+package com.tasks.controller;
 
 /**
  * Organization: HM FK07.

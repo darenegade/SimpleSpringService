@@ -16,7 +16,7 @@ public class Application {
 
 
 	@PostMapping("/hello_service")
-	String helloService(@RequestBody Name name){
+	public String helloService(@RequestBody Name name){
 		return "Hello " + name.getName();
 	}
 }

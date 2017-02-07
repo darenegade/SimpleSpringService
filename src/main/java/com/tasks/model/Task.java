@@ -1,5 +1,6 @@
 package com.tasks.model;
 
+import javax.persistence.Entity;
 import javax.persistence.OneToMany;
 import java.util.Set;
 
@@ -12,11 +13,12 @@ import java.util.Set;
  * Java-Version: 1.8
  * System: 2,3 GHz Intel Core i7, 16 GB 1600 MHz DDR3
  */
+@Entity
 public class Task extends BaseEntity{
   String description;
 
   @OneToMany
-  Set<Employee> Responsible;
+  Set<Employee> responsible;
 
   public String getDescription() {
     return description;

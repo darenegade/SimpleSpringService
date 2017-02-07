@@ -1,6 +1,6 @@
 package com.tasks.repositories;
 
-import com.tasks.model.Employee;
+import com.tasks.model.Task;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
@@ -16,5 +16,5 @@ import java.util.UUID;
  * System: 2,3 GHz Intel Core i7, 16 GB 1600 MHz DDR3
  */
 @RepositoryRestResource
-public interface TaskRepository extends CrudRepository<Employee, UUID> {
+public interface TaskRepository extends CrudRepository<Task, UUID> {
 }
